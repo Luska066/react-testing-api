@@ -1,0 +1,35 @@
+.item-class{
+    height: 150px;
+}
+
+.item-header{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.item-header>span{
+    margin-right: 5px;
+}
+
+.item-container{
+    background-color: rgb(182, 182, 183);
+}
+
+.error{
+    background-color: rgb(220, 86, 86);
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+    width: 50%;
+    border-radius: 8px ;
+}
+
+.success{
+    background-color: rgb(34, 162, 44);
+    padding: 5px 10px;
+    color: rgb(255, 245, 245);
+    font-weight: bold;
+    width: 50%;
+    border-radius: 8px ;
+}
